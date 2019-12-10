@@ -28,30 +28,34 @@ export default function MaterialTableDemo() {
     data: [
       {
         id: 1,
-        name: "filemon",
-        species: "cat"
+        title: "wizyta pilna",
+        location: "Kotkowo",
+        startdate: "2019-11-26",
+        enddate: "2019-12-10",
+        desc: "Kotek musi być operowany.",
+        all_day: false,
+        timezone: "UTC",
+        repeat: false,
+        date: "2019-11-26"
       },
       {
         id: 2,
-        name: "garfield",
-        species: "cat"
-      },
-      {
-        id: 3,
-        name: "burek",
-        species: "dog"
-      },
-      {
-        id: 4,
-        name: "lipton",
-        species: "dog"
+        title: "wizyta kontrolna",
+        location: "Kotkowo",
+        startdate: "2019-11-27",
+        enddate: "2019-11-17",
+        desc: "Wizyta kontrolna, sprawdzenie ogólnego stanu zwierzęcia",
+        all_day: false,
+        timezone: "UTC",
+        repeat: false,
+        date: "2019-11-27"
       }
     ]
   });
 
   return (
     <MaterialTable
-      title="Pet List"
+      title="Appointment List"
       columns={state.columns}
       data={state.data}
       editable={{

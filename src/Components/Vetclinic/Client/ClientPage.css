@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.banner {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.appointmentlist {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.petlist {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.calendar {
+  grid-area: 2 / 1 / 3 / 4;
+}

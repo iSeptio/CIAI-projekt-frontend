@@ -1,4 +1,5 @@
 import PetList from "./PetList";
-import AppointmentList from "./AppointmentList";
 
-export { PetList, AppointmentList };
+import Appointments from "./Appointments";
+
+export { PetList, Appointments };

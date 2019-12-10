@@ -33,8 +33,8 @@ export const client = {
   }
 };
 
-export const appointment = {
-  1: {
+export const appointment = [
+  {
     id: 1,
     title: "wizyta pilna",
     location: "Kotkowo",
@@ -46,7 +46,7 @@ export const appointment = {
     repeat: false,
     date: "2019-11-26"
   },
-  2: {
+  {
     id: 2,
     title: "wizyta kontrolna",
     location: "Kotkowo",
@@ -58,30 +58,30 @@ export const appointment = {
     repeat: false,
     date: "2019-11-27"
   }
-};
+];
 
-export const Pet = {
-  1: {
+export const Pet = [
+  {
     id: 1,
     name: "filemon",
     species: "cat"
   },
-  2: {
+  {
     id: 2,
     name: "garfield",
     species: "cat"
   },
-  3: {
+  {
     id: 3,
     name: "burek",
     species: "dog"
   },
-  4: {
+  {
     id: 4,
     name: "lipton",
     species: "dog"
   }
-};
+];
 
 export const petappoitment = {
   1: {
