@@ -1,0 +1,21 @@
+USER STORIES:
+
+1. As an admin I wanna be able to hire new Veterinarians because of the increasing number of clients that implies the need of new Vets.
+
+2. A pet died so as an User I should be able to remove it from my pet list
+
+3. The Vet did a bad surgery on a pet so an admin will delete (fire) him and it will lead to the freezing of his account.
+
+4. John has a dog and he forgot about his future appointment so he need to login in the system and look for the dog infos. 
+
+5. Sara’s cat gave birth to a new puppy so she has to update her pets list: add the new puppy. 
+
+6. A vet saw that a cat was treated badly so he checked his client pets to see if other pets of him has similar issues. 
+
+7.An admin deletes a user from the list of users after his departure.
+
+8.A vet select an appoinment and check its schedule, its detail and its pet.
+
+9.A user open its home page after the login and see the user details and the list of his pets.
+
+10. As a client I should be able to delete a pet. 
